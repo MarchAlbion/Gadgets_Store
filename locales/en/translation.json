@@ -1,0 +1,81 @@
+{
+  "homePage": {
+    "mobilePhones": "Mobile phones",
+    "models": "models",
+    "tablets": "Tablets",
+    "accessories": "Accessories",
+    "hotPrices": "Hot prices",
+    "brandNewModels": "Brand new models",
+    "shopByCategory": "Shop by category",
+    "welcome": "Welcome to Nice Gadgets store!"
+  },
+  "nav": {
+    "home": "Home",
+    "phones": "Phones",
+    "tablets": "Tablets",
+    "accessories": "Accessories",
+    "back": "Back"
+  },
+  "footer": {
+    "github": "Github",
+    "contacts": "Contacts",
+    "rights": "Rights",
+    "backToTop": "Back to top",
+    "policy": "Private policy",
+    "shipping": "Shipping",
+    "warranty": "Warranty",
+    "address": "7535 Dadeland Mall, Miami",
+    "made": "Made by",
+    "team": "team",
+    "right": "All rights reserved",
+    "and": "and",
+    "info": "Info"
+  },
+  "tablets": {
+    "title": "Tablets"
+  },
+  "phones": {
+    "title": "Phones"
+  },
+  "accessories": {
+    "title": "Accessories"
+  },
+  "catalog": {
+    "modelsCountSingular": "{{count}} model",
+    "modelsCountPlural": "{{count}} models",
+    "sortBy": "Sort by",
+    "newest": "Newest",
+    "alphabetically": "Alphabetically",
+    "cheapest": "Cheapest",
+    "itemsOnPage": "Items on page",
+    "all": "All"
+  },
+  "productCard": {
+    "screen": "Screen",
+    "RAM": "RAM",
+    "capacity": "Capacity",
+    "added": "Added",
+    "addToCart": "Add to cart"
+  },
+  "cart": {
+    "totalFor": "Total for",
+    "checkout": "Checkout",
+    "items": "items"
+  },
+  "detailProduct": {
+    "availableColors": "Available colors",
+    "selectCapacity": "Select capacity",
+    "about": "About",
+    "techSpecs": "Tech specs",
+    "youMayAlsoLike": "You may also like",
+    "id": "ID"
+  },
+  "techSpech": {
+    "processor": "Processor",
+    "resolution": "Resolution",
+    "memory": "Built in memory",
+    "camera": "Camera",
+    "zoom": "Zoom",
+    "cell": "Cell"
+  }
+}

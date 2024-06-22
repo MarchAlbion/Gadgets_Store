@@ -1,0 +1,81 @@
+{
+  "homePage": {
+    "mobilePhones": "移动电话",
+    "models": "模型",
+    "tablets": "平板电脑",
+    "accessories": "配件",
+    "hotPrices": "热门价格",
+    "brandNewModels": "全新模型",
+    "shopByCategory": "按类别购物",
+    "welcome": "欢迎来到 好玩的小工 具商店！"
+  },
+  "nav": {
+    "home": "主页",
+    "phones": "电话",
+    "tablets": "平板电脑",
+    "accessories": "配件",
+    "back": "后退"
+  },
+  "footer": {
+    "github": "Github",
+    "contacts": "联系方式",
+    "rights": "权利",
+    "backToTop": "回到顶部",
+    "policy": "隐私政策",
+    "shipping": "船运",
+    "warranty": "保修单",
+    "address": "7535 Dadeland 购物中心, 迈阿密",
+    "made": "由制成",
+    "team": "团队",
+    "right": "版权所有",
+    "and": "和",
+    "info": "信息"
+  },
+  "tablets": {
+    "title": "平板电脑"
+  },
+  "phones": {
+    "title": "电话"
+  },
+  "accessories": {
+    "title": "配件"
+  },
+  "catalog": {
+    "modelsCountSingular": "{{count}} 模型",
+    "modelsCountPlural": "{{count}} 模型",
+    "sortBy": "排序方式",
+    "newest": "最新的",
+    "alphabetically": "按字母顺序",
+    "cheapest": "最便宜的",
+    "itemsOnPage": "页面上的项目",
+    "all": "所有"
+  },
+  "productCard": {
+    "screen": "屏幕",
+    "RAM": "配电",
+    "capacity": "便宜",
+    "added": "添加",
+    "addToCart": "添加到购物车"
+  },
+  "cart": {
+    "totalFor": "总计",
+    "checkout": "查看",
+    "items": "项目"
+  },
+  "detailProduct": {
+    "availableColors": "颜色选择器",
+    "selectCapacity": "颜色选择器",
+    "about": "概述",
+    "techSpecs": "技术规格",
+    "youMayAlsoLike": "你也许也喜欢",
+    "id": "文章"
+  },
+  "techSpech": {
+    "processor": "处理器",
+    "resolution": "显示分辨率",
+    "memory": "内置内存",
+    "camera": "细胞",
+    "zoom": "飞涨",
+    "cell": "通讯标准"
+  }
+}

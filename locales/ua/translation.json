@@ -1,0 +1,82 @@
+{
+  "homePage": {
+    "mobilePhones": "Мобільні телефони",
+    "models": "моделі",
+    "tablets": "Планшети",
+    "accessories": "Аксесуари",
+    "hotPrices": "Гарячі ціни",
+    "brandNewModels": "Нові моделі",
+    "shopByCategory": "Купуйте за категоріями",
+    "welcome": "Ласкаво просимо в магазин Nice Gadgets!"
+  },
+  "nav": {
+    "home": "Головна",
+    "phones": "Телефони",
+    "tablets": "Планшети",
+    "accessories": "Аксесуари",
+    "back": "Назад"
+  },
+  "footer": {
+    "github": "Github",
+    "contacts": "Контакти",
+    "rights": "Права",
+    "backToTop": "До початку",
+    "policy": "Політика приватності",
+    "shipping": "Доставка і оплата",
+    "warranty": "Гарантія",
+    "address": "ТЦ Дейдленд, Маямі",
+    "made": "Зроблено командою",
+    "team": "",
+    "right": "Всі права захищено",
+    "and": "та",
+    "info": "Інформація"
+  },
+  "tablets": {
+    "title": "Планшети"
+  },
+  "phones": {
+    "title": "Телефони"
+  },
+  "accessories": {
+    "title": "Аксесуари"
+  },
+  "catalog": {
+    "modelsCountSingular": "{{count}} модель",
+    "modelsCountPlural": "{{count}} моделі",
+    "modelsCountPlural_1": "{{count}} моделей",
+    "sortBy": "Сортувати",
+    "newest": "Новіші",
+    "alphabetically": "Алфавітно",
+    "cheapest": "Найдешевші",
+    "itemsOnPage": "Елементи на сторінці",
+    "all": "Всі"
+  },
+  "productCard": {
+    "screen": "Екран",
+    "RAM": "ОЗП",
+    "capacity": "Об'єм",
+    "added": "Додано",
+    "addToCart": "Додати в кошик"
+  },
+  "cart": {
+    "totalFor": "Всього за",
+    "checkout": "Оформити замовлення",
+    "items": "предметів"
+  },
+  "detailProduct": {
+    "availableColors": "Доступні кольори",
+    "selectCapacity": "Обсяг пам'яті",
+    "about": "Опис",
+    "techSpecs": "Характеристики",
+    "youMayAlsoLike": "Вам також може сподобатися",
+    "id": "Артикул"
+  },
+  "techSpech": {
+    "processor": "Процесор",
+    "resolution": "Роздільна здатність дисплея",
+    "memory": "Вбудована пам'ять",
+    "camera": "Камера",
+    "zoom": "Зум",
+    "cell": "Стандарт зв'язку"
+  }
+}
