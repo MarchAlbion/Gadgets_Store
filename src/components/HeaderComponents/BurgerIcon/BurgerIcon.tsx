@@ -1,5 +1,5 @@
 import { Button } from '../../../UI';
-import burger from '../../../assets/icons/Menu.svg';
+import { ReactComponent as Burger } from '../../../assets/icons/Menu.svg';
 import styles from './BurgerIcon.module.scss';
 
 type Props = {
@@ -12,8 +12,9 @@ export const BurgerIcon: React.FC<Props> = ({ setShowMenu }) => (
       type="icon"
       onClick={() => setShowMenu(true)}
       size={{ width: 50, height: 50 }}
+      state="header"
     >
-      <img src={burger} alt="Icon" />
+      <Burger className={styles.icon__fill} />
     </Button>
   </div>
 );

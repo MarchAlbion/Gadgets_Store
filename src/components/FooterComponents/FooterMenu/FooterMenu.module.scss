@@ -13,11 +13,11 @@
     gap: 16px;
   }
   &__link {
-    color: $Icons;
+    color: var(--secondary);
 
     transition: 0.3s color;
     &:hover {
-      color: $Primary;
+      color: var(--primary);
     }
   }
 }

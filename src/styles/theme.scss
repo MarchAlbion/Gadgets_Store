@@ -1,0 +1,74 @@
+@import './colors';
+
+.App,
+[data-theme='Original'] {
+  --background: #{$White};
+  --primary: #{$Primary};
+  --secondary: #{$Secondary};
+  --icons: #{$Icons};
+  --elements: #{$Elements};
+  --hover: #{$Hover_BG};
+  --green: #{$Green};
+  --red: #{$Red};
+  --grey: #{$Gray};
+  --border: #{$Elements};
+  --card-background: #{$White};
+  --button-background: #{$Primary};
+  --button-hover: #{$Primary};
+  --button-selected: #{$White};
+  --button-selected-text-color: #{$Green};
+  --icon-background-color: #{$White};
+  --icon-border-color: #{$Icons};
+  --icon-hover-color: #{$White};
+  --icon-border-hover-color: #{$Primary};
+  --icon-selected-color: #{$Primary};
+  --icon-selected-border-color: #{$Elements};
+  --back-button-color: #{$Secondary};
+  --back-button-hover-color: #{$Primary};
+  --button-shadow: #{$Shadow};
+  --footer-header-border: #{$Icons};
+  --dropdown-border-color: #{$Icons};
+  --dropdown-focus-color: #{$Primary};
+  --icon-numbers-color: #{$White};
+  --icon-numbers-hover-border: #{$Primary};
+  --icon-numbers-hover-color: #{$White};
+  --icon-numbers-selected: #{$Primary};
+  --toggle-theme-background: url('../assets/backIron.png');
+  --lang-seleted: #{$Red};
+}
+
+[data-theme='Original Dark'] {
+  --background: #{$Black_dark};
+  --primary: #{$White_dark};
+  --secondary: #{$Secondary_dark};
+  --icons: #{$Icons_dark};
+  --elements: #{$Elements_dark};
+  --hover: #{$Suface_two_dark};
+  --green: #{$Green};
+  --red: #{$Red};
+  --grey: #{$Suface_two_dark};
+  --border: #{$Surface_one_dark};
+  --card-background: #{$Surface_one_dark};
+  --button-background: #{$Accent_dark};
+  --button-hover: #{$Accent-light};
+  --button-selected: #{$Suface_two_dark};
+  --button-selected-text-color: #{$White-dark};
+  --icon-background-color: #{$Suface_two_dark};
+  --icon-border-color: #{$Suface_two_dark};
+  --icon-hover-color: #{$Icons_dark};
+  --icon-border-hover-color: #{$Icons_dark};
+  --icon-selected-color: #{$Black_dark};
+  --icon-selected-border-color: #{$Elements_dark};
+  --back-button-color: #{$White_dark};
+  --back-button-hover-color: #{$Accent_dark};
+  --button-shadow: #{$Accent-Shadow};
+  --footer-header-border: #{$Suface_two_dark};
+  --dropdown-border-color: #{$Elements_dark};
+  --dropdown-focus-color: #{$Accent_dark};
+  --icon-numbers-color: #{$Surface_one_dark};
+  --icon-numbers-hover-border: #{$Elements_dark};
+  --icon-numbers-hover-color: #{$Elements_dark};
+  --icon-numbers-selected: #{$Accent_dark};
+  --toggle-theme-background: url('../assets/darkMetal.png');
+  --lang-seleted: #{$Accent-dark};
+}

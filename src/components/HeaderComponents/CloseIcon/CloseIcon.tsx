@@ -1,5 +1,5 @@
 import { Button } from '../../../UI';
-import icon from '../../../assets/icons/Close.svg';
+import { ReactComponent as Icon } from '../../../assets/icons/Close.svg';
 import styles from './CloseIcon.module.scss';
 
 type Props = {
@@ -13,8 +13,9 @@ export const CloseIcon: React.FC<Props> = ({ setShowMenu }) => (
       onClick={() => setShowMenu(false)}
       size={{ width: 100, height: 100 }}
       measure="%"
+      state="header"
     >
-      <img src={icon} alt="Icon" />
+      <Icon className={styles.icon__close} />
     </Button>
   </div>
 );

@@ -7,7 +7,16 @@
   gap: 24px;
   width: fit-content;
   height: fit-content;
-  border: 1px solid $Elements;
+  border: 1px solid var(--border);
+  background-color: var(--card-background);
+  &__container {
+    &__icon * {
+      fill: var(--secondary);
+    }
+    &:hover &__icon * {
+      fill: var(--primary);
+    }
+  }
 
   &__product {
     display: flex;
@@ -32,7 +41,7 @@
     line-height: 21px;
     width: 336px;
     word-break: break-all;
-    color: $Primary;
+    color: var(--primary);
   }
 
   &__delete {
@@ -45,17 +54,13 @@
     cursor: pointer;
   }
 
-  &__amount,
-  &__button {
+  &__amount {
     width: 32px;
     height: 32px;
-    border: 1px solid $Elements;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  &__amount {
+    color: var(--primary);
     border: none;
     font-size: 14px;
     font-weight: 600;
@@ -71,7 +76,7 @@
   }
 
   &__price {
-    color: $Primary;
+    color: var(--primary);
 
     font-size: 22px;
     font-weight: 800;
@@ -81,7 +86,7 @@
   }
 }
 
-@media screen and (max-width: 743px) {
+@media screen and (max-width: 800px) {
   .cardItem {
     &__title {
       width: 178px;

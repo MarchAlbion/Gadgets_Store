@@ -1,0 +1,62 @@
+@import '../../../styles/colors';
+
+.language-dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px;
+}
+
+.language-list {
+  display: none;
+  position: absolute;
+  background-color: var(--background);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 60px;
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  top: 50px;
+  left: -10px;
+}
+
+@media (max-width: 640px) {
+  .language-list {
+    top: -80px;
+    left: -13px;
+  }
+}
+
+.language-dropdown:hover .language-list {
+  display: flex;
+}
+
+.language-list .button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary);
+  padding: 2px;
+}
+
+.language-list .active {
+  color: var(--lang-selected);
+}
+
+@media (max-width: 640px) {
+  .language-list {
+    right: 0;
+  }
+}

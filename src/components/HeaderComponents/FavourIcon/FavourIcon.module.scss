@@ -6,6 +6,10 @@
   width: 50px;
 
   @include underline;
+
+  &__fill * {
+    fill: var(--primary);
+  }
   &_active {
     @include underline-active;
   }

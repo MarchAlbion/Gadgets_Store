@@ -1,0 +1,13 @@
+@import '../../styles/grid';
+
+.page__container {
+  padding-top: 24px;
+  padding-bottom: 64px;
+  color: var(--primary);
+  
+  @include container;
+
+  @include on-desctop {
+    padding-bottom: 80px;
+  }
+}

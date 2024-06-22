@@ -6,6 +6,10 @@
   &__large {
     width: 50%;
   }
+
+  &__fill * {
+    fill: var(--primary);
+  }
   button {
     border-right: 1px solid transparent;
     border-top: 1px solid transparent;

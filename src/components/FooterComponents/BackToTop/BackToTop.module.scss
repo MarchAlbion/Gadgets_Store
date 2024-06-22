@@ -5,14 +5,28 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
+
+  &__fill * {
+    fill: var(--primary);
+  }
   &__link {
     font-size: 12px;
     font-weight: 600;
-    color: $Icons;
+    color: var(--secondary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 
     transition: 0.3s color;
     &:hover {
-      color: $Primary;
+      color: var(--primary);
+
+      button {
+        color: var(--primary);
+        border-color: var(--primary);
+      }
     }
   }
   &__icon {

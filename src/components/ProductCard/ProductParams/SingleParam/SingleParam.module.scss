@@ -1,0 +1,17 @@
+@import '../../../../styles/colors';
+
+.phoneParam {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+  font-weight: 600;
+
+  &__name {
+    color: var(--secondary);
+  }
+
+  &__overview {
+    color: var(--primary);
+  }
+}

@@ -1,0 +1,106 @@
+@import '../../styles/typography';
+@import '../../styles/grid';
+@import '../../styles/colors';
+
+.container {
+  @include container;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  color: var(--primary);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 640px) {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 56px;
+    margin-bottom: 56px;
+  }
+
+  .main-title {
+    @include h1;
+
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 640px) {
+      margin-bottom: 32px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 56px;
+    }
+  }
+
+  .shop-by-category {
+    .title {
+      @include h2;
+    }
+
+    .cards {
+      margin-top: 24px;
+
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      @media screen and (min-width: 640px) {
+        flex-direction: row;
+        gap: 16px;
+      }
+
+      .card {
+        margin: 0 auto;
+
+        width: 100%;
+
+        .link {
+          display: block;
+
+          .image {
+            background-image: url('../../assets/categories/phone/phone.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+
+            width: 100%;
+
+            padding-bottom: 100%;
+            transition: transform 0.5s ease;
+
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+
+          .subtitle {
+            margin-top: 24px;
+            transition: color 0.5s ease;
+
+            &:hover {
+              color: $Secondary;
+            }
+          }
+          .description {
+            color: $Icons;
+
+            @include body-text;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tablets {
+  background-image: url('../../assets/categories/tablets/tablets.png') !important;
+}
+
+.accessories {
+  background-image: url('../../assets/categories/accessories/accessories.png') !important;
+}

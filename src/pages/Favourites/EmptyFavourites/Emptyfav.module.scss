@@ -1,0 +1,14 @@
+.cart {
+width: auto;
+  height: calc(100vh - 68px - 200px);
+  display: flex;
+  justify-self: center;
+  &__cat {
+    background-image: url('../../../assets/FamyFav.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50vw;
+    height: 100%;
+  }
+}

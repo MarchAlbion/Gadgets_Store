@@ -1,0 +1,60 @@
+@import '../../styles/grid';
+@import '../../styles/colors';
+
+.page {
+  &__container {
+    @include container;
+  }
+
+}
+
+.title {
+  margin-top: 24px;
+  color: var(--primary);
+  font-size: 32px;
+
+  @include on-tablet {
+    margin-top: 40px;
+
+    font-size: 48px;
+  }
+}
+
+.breadcrumbs {
+  height: 16px;
+  margin-top: 24px;
+
+  grid-column: 1 / -1;
+}
+
+.counter {
+  margin-top: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+.products {
+  @include page-grid;
+
+  padding-top: 32px;
+  padding-bottom: 56px;
+
+  @include on-tablet {
+    padding-top: 40px;
+    padding-bottom: 64px;
+  }
+
+  @include on-tablet {
+    padding-bottom: 80px;
+  }
+}
+
+.product {
+  grid-column: span 4;
+
+  @include on-tablet {
+    grid-column: span 6;
+  }
+}

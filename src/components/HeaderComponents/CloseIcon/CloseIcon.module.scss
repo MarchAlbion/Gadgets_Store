@@ -3,6 +3,10 @@
 .icon {
   display: flex;
   width: 50px;
+
+  &__close * {
+    fill: var(--primary);
+  }
   &__large {
     width: 50%;
   }

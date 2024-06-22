@@ -1,0 +1,12 @@
+.cart {
+  width: 100%;
+  height: calc(100vh - 68px - 97px - 250px);
+  &__cat {
+    background-image: url('../../../assets/Fam.png');
+    background-size: contain; /* Adjust this based on your image and layout */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: auto; /* Ensure the image takes up the entire space of .cart__cat */
+    height: 100%; /* Ensure the image takes up the entire space of .cart__cat */
+  }
+}

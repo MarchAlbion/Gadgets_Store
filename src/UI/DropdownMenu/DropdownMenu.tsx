@@ -3,15 +3,13 @@ import styles from './DropdownMenu.module.scss';
 import ArrowUp from '../../assets/icons/ArrowUp.svg';
 import ArrowDown from '../../assets/icons/ArrowDown.svg';
 
-interface DropdownMenuProps {
+interface Props {
   options: string[];
   label?: string;
+  onSelect?: (option: string) => void;
 }
 
-export const DropdownMenu: React.FC<DropdownMenuProps> = ({
-  options,
-  label,
-}) => {
+export const DropdownMenu: React.FC<Props> = ({ options, label, onSelect }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState<string>(options[0]);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -33,11 +31,18 @@ export const DropdownMenu: React.FC<DropdownMenuProps> = ({
     };
   }, []);
 
+  useEffect(() => {
+    setSelectedOption(options[0]);
+  }, [options]);
+
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   const handleOptionClick = (option: string) => {
     setSelectedOption(option);
     setIsOpen(false);
+    if (onSelect) {
+      onSelect(option);
+    }
   };
 
   return (

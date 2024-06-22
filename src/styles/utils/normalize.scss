@@ -1,5 +1,11 @@
 @import '../fonts';
 
+:root {
+  --color-toggle-light: rgb(255, 208, 0);
+  --color-toggle-dark: bisque;
+}
+
 html {
   font-family: Mont, sans-serif;
+  scroll-behavior: smooth;
 }

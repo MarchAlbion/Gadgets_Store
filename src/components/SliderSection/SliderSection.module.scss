@@ -1,0 +1,28 @@
+@import '../../styles/grid';
+@import '../../styles/typography';
+
+.slider-section {
+  width: 100%;
+
+  overflow: hidden;
+
+  .container {
+    @include container;
+
+    .title-and-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color:  var(--primary);
+      margin-bottom: 24px;
+    }
+    .buttons {
+      display: flex;
+      gap: 16px;
+    }
+
+    .title {
+      @include h2;
+    }
+  }
+}

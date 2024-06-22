@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+
+.navigation-button button svg path {
+  fill: var(--primary);
+}
+
+.swiper-button-disabled {
+  button {
+    &:hover {
+      border-color: $Icons;
+      cursor: not-allowed;
+    }
+  }
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  svg path {
+    fill: $Icons !important;
+  }
+}

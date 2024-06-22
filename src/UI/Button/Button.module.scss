@@ -1,5 +1,10 @@
 @import '../../styles/colors';
 
+.arrowLeft * {
+  fill: var(--primary);
+}
+
+
 .btn {
   display: flex;
   align-items: center;
@@ -15,60 +20,93 @@
   &__primary {
     width: 100%;
     min-height: 40px;
-    background-color: $Primary;
+    background-color: var(--button-background);
     color: $White;
     cursor: pointer;
 
     &:hover {
-      box-shadow: 0 3px 13px 0 #17203166;
+      box-shadow: 0 3px 13px 0 var(--button-shadow);
+      background-color: var(--button-hover);
     }
 
     &--selected {
-      background-color: $White;
-      color: $Green;
+      border: 1px solid var(--elements);
+      background-color: var(--button-selected);
+      color: var(--button-selected-text-color);
+
+      &:hover {
+        background-color: var(--button-selected);
+      }
     }
   }
 
   &__back {
     width: auto;
     font-size: 12px;
-    background-color: $White;
-    color: $Secondary;
+    background-color: var(--background);
+    color: var(--back-button-color);
 
     &:hover {
-      color: $Primary;
+      color: var(--back-button-hover-color);
+    }
+
+    &:hover svg * {
+      fill: var(--back-button-hover-color);
     }
   }
-
+  &__sign,
   &__number,
   &__icon {
     aspect-ratio: 1 / 1;
-    background-color: $White;
+    background-color: var(--icon-background-color);
     border: 1px solid;
   }
 
   &__number {
-    border-color: $Elements;
+    border-color: var(--border);
+    color: var(--primary);
+
+    background-color: var(--icon-numbers-color);
 
     &:hover {
-      border-color: $Primary;
+      border-color: var(--icon-numbers-hover-border);
+      background-color: var(--icon-numbers-hover-color);
     }
 
     &--selected {
-      background-color: $Primary;
+      background-color: var(--icon-numbers-selected);
       color: $White;
+
+      &:hover {
+        background-color: var(--icon-numbers-selected);
+      }
+    }
+  }
+
+  &__sign {
+    border-color: var(--elements);
+    background-color: var(--card-background);
+
+    &:hover {
+      border-color: var(--icon-border-color);
+      background-color: var(--hover);
     }
   }
 
   &__icon {
-    border-color: $Icons;
+    border-color: var(--icon-border-color);
 
     &:hover {
-      border-color: $Primary;
+      border-color: var(--icon-border-hover-color);
+      background-color: var(--icon-hover-color);
     }
 
     &--selected {
-      border-color: $Elements;
+      border-color: var(--icon-selected-border-color);
+    }
+
+    &--header {
+      background-color: var(--background);
     }
 
     &--disabled {
@@ -112,3 +150,4 @@
   height: 16px;
   margin-right: 4px;
 }
+

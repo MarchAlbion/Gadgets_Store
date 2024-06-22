@@ -1,0 +1,27 @@
+@import '../../../styles/colors';
+@import '../../../styles/animations';
+
+.block {
+  &__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--primary);
+  }
+
+  &__list {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__link {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--icons);
+
+    @include hover(color, var(--secondary));
+  }
+}

@@ -3,6 +3,7 @@
 .dropdown {
   position: relative;
   width: 200px;
+  min-width: 120px;
   font-size: 14px;
   font-weight: 600;
   line-height: 21px;
@@ -11,26 +12,27 @@
     margin-bottom: 4px;
     font-size: 12px;
     line-height: 15.34px;
-    color: $Secondary;
+    color: var(--secondary);
   }
 
   &__toggle {
     font: inherit;
     padding: 10px 12px;
     cursor: pointer;
-    background-color: $White;
-    border: 1px solid $Icons;
+    background-color: var(--hover);
+    border: 1px solid var(--dropdown-border-color);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--primary);
 
     &:hover {
-      border-color: $Secondary;
+      border-color: var(--secondary);
     }
 
     &:focus {
-      border-color: $Primary;
+      border-color: var(--dropdown-focus-color);
     }
   }
 
@@ -38,8 +40,8 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: $White;
-    border: 1px solid $Icons;
+    background-color: var(--background);
+    border: 1px solid var(--dropdown-border-color);
     width: 100%;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -47,12 +49,12 @@
 
   &__item {
     padding: 10px 12px;
-    color: $Secondary;
+    color: var(--secondary);
     cursor: pointer;
 
     &:hover {
-      color: $Primary;
-      background-color: $Gray;
+      color: var(--primary);
+      background-color: var(--grey);
     }
   }
 }

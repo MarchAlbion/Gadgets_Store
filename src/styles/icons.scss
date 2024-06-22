@@ -7,7 +7,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    background-color: $Primary;
+    background-color: var(--primary);
     height: 3px;
     transition: 0.3s width;
     border-radius: 3px;
@@ -22,7 +22,7 @@
 }
 
 @mixin underline-active {
-  color: $Primary;
+  color: var(--primary);
 
   &::after {
     width: 100%;
@@ -43,7 +43,7 @@
     content: '';
     position: absolute;
     bottom: 0;
-    background-color: $Primary;
+    background-color: var(--primary);
     height: 3px;
     transition: 0.3s width;
   }
