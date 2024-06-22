@@ -1,6 +1,6 @@
 import { Product } from '../types/Product';
 
-const BASE_URL = '/react_phone-catalog/api/';
+const BASE_URL = '/Gadgets_Store/api/';
 
 export const getProduct = (
   category: string,

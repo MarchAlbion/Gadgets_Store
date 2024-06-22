@@ -5,7 +5,7 @@ export const fetchProducts = createAsyncThunk<
   { [key: string]: Product[] },
   void
 >('appStorage/fetchProducts', async () => {
-  const response = await fetch('/react_phone-catalog/api/products.json');
+  const response = await fetch('/Gadgets_Store/api/products.json');
   const data = await response.json();
 
   const categorizedProducts = categorizeProducts(data);
