@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Gadgets_Store/static/css/main.125e8c8c.css",
-    "main.js": "/Gadgets_Store/static/js/main.59024275.js",
+    "main.css": "/Gadgets_Store/static/css/main.aa2ea2f6.css",
+    "main.js": "/Gadgets_Store/static/js/main.18a2684b.js",
     "static/media/cartoon-angry-cat-Graphics-68858337-1.png": "/Gadgets_Store/static/media/cartoon-angry-cat-Graphics-68858337-1.17d93c066d8691c83ea1.png",
     "static/media/banner_02.png": "/Gadgets_Store/static/media/banner_02.4ba37352bee4f79d3b76.png",
     "static/media/banner_04.png": "/Gadgets_Store/static/media/banner_04.72ff8d8f27bd42be6443.png",
@@ -47,11 +47,11 @@
     "static/media/Minus.svg": "/Gadgets_Store/static/media/Minus.cecb4be39afa7b933ec169dd495a73ff.svg",
     "static/media/getFetch.cjs": "/Gadgets_Store/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/Search.svg": "/Gadgets_Store/static/media/Search.6bc58f9b30c941000c3df8c9684fe09d.svg",
-    "main.125e8c8c.css.map": "/Gadgets_Store/static/css/main.125e8c8c.css.map",
-    "main.59024275.js.map": "/Gadgets_Store/static/js/main.59024275.js.map"
+    "main.aa2ea2f6.css.map": "/Gadgets_Store/static/css/main.aa2ea2f6.css.map",
+    "main.18a2684b.js.map": "/Gadgets_Store/static/js/main.18a2684b.js.map"
   },
   "entrypoints": [
-    "static/css/main.125e8c8c.css",
-    "static/js/main.59024275.js"
+    "static/css/main.aa2ea2f6.css",
+    "static/js/main.18a2684b.js"
   ]
 }
