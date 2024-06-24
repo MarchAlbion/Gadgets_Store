@@ -93,7 +93,7 @@ export const ItemDetailsPage = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
-  const URL = getCategoryApiEndpoint(pathname, '/react_phone-catalog/api/');
+  const URL = getCategoryApiEndpoint(pathname, '/Gadgets_Store/api/');
 
   /* create products for slider */
 
